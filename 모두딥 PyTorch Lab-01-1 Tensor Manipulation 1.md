@@ -1,5 +1,4 @@
-뭔지 모르겠네
--------------
+
 
 ```python
 import numpy as np
