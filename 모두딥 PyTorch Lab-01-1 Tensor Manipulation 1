@@ -1,9 +1,9 @@
 
 
-~~~python
+```python
 import numpy as np
 import torch
-~~~
+```
 
 
 ```python
