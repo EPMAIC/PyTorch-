@@ -136,7 +136,7 @@ y_train = torch.FloatTensor([[152], [185], [196], [142]]) # 한번의 기말시�
 model = MultivariableLinearRegressionModel1()
 
 # optimizer 정의
-optimizer = torch.optim.SGD([w, b], lr=1e-5)
+optimizer = optim.SGD(model.parameters(), lr=1e-5)
 
 nb_epochs = 20
 for epoch in range(nb_epochs + 1):
@@ -145,7 +145,7 @@ for epoch in range(nb_epochs + 1):
     hypothesis = model(x_train)
     
     # cost 계산
-    cost = F.mse_loss(prediction, y_train)
+    cost = F.mse_loss(hypothesis, y_train)
     
     
     # cost로 H(x) 개선
