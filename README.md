@@ -4,3 +4,6 @@
 Tensor   
 Gradient https://sdolnote.tistory.com/entry/Gradient   
 Stochastic Gradient Descent (SGD)
+
+Epoch / Batch size / Iteration
+https://stackoverflow.com/questions/4752626/epoch-vs-iteration-when-training-neural-networks
