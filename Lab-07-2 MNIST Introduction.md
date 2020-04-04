@@ -119,5 +119,5 @@ with torch.no_grad(): # no_grad = gradient 계산 안할 것 test 이므로
 
 
 
-![png](output_2_1.png)
+
 
